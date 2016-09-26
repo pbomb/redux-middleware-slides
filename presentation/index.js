@@ -223,6 +223,7 @@ export default class Presentation extends React.Component {
             textSize="1.4rem"
             lang="js"
             code={ require("raw!../assets/examples/redux-thunk-fetch.js") }
+            notes="Inconsistent. Some actions return objects. Some return functions."
             ranges={[
               { loc: [0, 23] },
               { loc: [0, 5], note: "3 actions - Pending, Success, Failure" },
